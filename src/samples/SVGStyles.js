@@ -1,6 +1,11 @@
 import {range} from 'utils/data';
 import BaseCase from './BaseCase';
 
+import {selection, select} from 'd3-selection';
+import 'd3-selection-multi';
+
+console.log(selection, select);
+
 export default class SVGStyles extends BaseCase {
 
 	constructor() {
