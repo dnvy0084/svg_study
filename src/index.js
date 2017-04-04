@@ -1,9 +1,11 @@
 
+import {ready, loadImage} from 'utils/async';
 import CaseBarGraph from 'samples/CaseBarGraph';
 import SVGBasic from 'samples/SVGBasic';
-import {ready, loadImage} from 'utils/async';
+import SVGStyles from 'samples/SVGStyles';
 
 const cases = [
+	SVGStyles,
 	SVGBasic,
 	CaseBarGraph,
 ];

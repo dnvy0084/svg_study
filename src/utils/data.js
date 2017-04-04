@@ -1,5 +1,5 @@
 
-export {random, randomIter};
+export {random, randomIter, range};
 
 function random( len, min = 0, max = 100 ) {
 	const a = [];
@@ -11,4 +11,8 @@ function random( len, min = 0, max = 100 ) {
 
 function* randomIter( len, min = 0, max = 100 ) {
 	for( ; len--; ) yield (max - min) * Math.random() + min;
+}
+
+function* range(a, b, n = 1) {
+	for( ; a < b; a += n ) yield a;
 }

@@ -38,6 +38,13 @@ export default class SVGBasic extends BaseCase {
 			.text(this.title)
 			.attr('class', 'basic-text');
 
+		// this.d3stage.append('circle')
+		// 	.attr({
+		// 		cx: 300,
+		// 		cy: 200,
+		// 		r: 50
+		// 	});
+
 		const g = this.d3stage.append('g');
 			
 		g.append('text')
@@ -73,9 +80,7 @@ export default class SVGBasic extends BaseCase {
 			t += 0.005;
 		}
 
-		tick(0);
-
-		console.log('>>>', d3.select('#newStage').append('svg'));
+		// tick(0);
 
 		return super.start();
 	}
