@@ -15,8 +15,6 @@ export default class CaseBarGraph extends BaseCase {
 		this.delay = 10;
 		this.duration = 200;
 		this.stageWidth = 400;
-
-		console.log(this.constructor.name, d3);
 	}
 
 	start() {

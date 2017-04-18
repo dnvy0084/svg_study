@@ -1,19 +1,35 @@
 <html>
 <head>
 	<title></title>
-	<!-- <script src="https://d3js.org/d3.v4.js"></script>
-	<script src="https://d3js.org/d3-selection-multi.v0.4.min.js"></script> -->
+	<script src="https://d3js.org/d3.v4.js"></script>
+	<script src="https://d3js.org/d3-selection-multi.v0.4.min.js"></script>
 	<script type="text/javascript" src='index.bundle.js'></script>
 	<style type="text/css">
 		svg{
-			border: 1px solid #ccc;
-			display: block;
+			margin: 10px;
+			/*border: 1px solid #ccc;
+			display: block;*/
 			/*position: absolute;*/
 			/*text-align: center;*/
 			/*transform: translate(50%, 50%);*/
 		}
 
+		.browser-text {
+			font-weight: bold;
+			top: 20px;
+			left: 90%;
+		}
 
+		.line-pica {
+			stroke: blue;
+			fill: none;
+			stroke-width: 1px;
+		}
+
+		.line-downscale {
+			stroke: red;
+			fill: none;
+		}
 
 		.container-center{
 			width: 100%;
@@ -28,7 +44,7 @@
 		}
 
 		.axis text {
-			font-family: courier;
+			font-family: Helvetica;
 			font-size: 11px;
 		}
 

@@ -1,9 +1,7 @@
-import _ from 'd3-selection-multi';
-import * as d3 from 'd3';
 
 export default class BaseCase {
 
-	constructor( width = 400, height = 300 ) {
+	constructor( width = 550, height = 400 ) {
 		this._init( width, height );
 	}
 
@@ -19,8 +17,6 @@ export default class BaseCase {
 		[ this.d3header, this.d3stage ].forEach( d3dom => this.d3wrapper.node().appendChild( d3dom.node() ) );
 
 		this.title = 'BaseCase';
-
-		console.log(this.d3stage);
 	}
 
 	get(key, from = this.d3stage) {

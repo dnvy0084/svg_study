@@ -3,11 +3,15 @@ import {ready, loadImage} from 'utils/async';
 import CaseBarGraph from 'samples/CaseBarGraph';
 import SVGBasic from 'samples/SVGBasic';
 import SVGStyles from 'samples/SVGStyles';
+import D3DataSample from 'samples/D3DataSample';
+import PerformanceTest from 'samples/PerformanceTest';
 
 const cases = [
-	SVGStyles,
-	SVGBasic,
-	CaseBarGraph,
+	PerformanceTest,
+	// D3DataSample,
+	// SVGStyles,
+	// SVGBasic,
+	// CaseBarGraph,
 ];
 
 ready( window ).then( delegate );

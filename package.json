@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "webpack": "webpack",
+    "compile": "webpack --progress",
     "dev": "webpack-dev-server --open"
   },
   "author": "",
@@ -17,6 +18,7 @@
     "babel-polyfill": "^6.23.0",
     "babel-preset-latest": "^6.24.0",
     "babel-runtime": "^6.23.0",
+    "jquery": "^3.2.1",
     "webpack": "^2.3.2"
   },
   "devDependencies": {
