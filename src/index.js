@@ -5,13 +5,15 @@ import SVGBasic from 'samples/SVGBasic';
 import SVGStyles from 'samples/SVGStyles';
 import D3DataSample from 'samples/D3DataSample';
 import PerformanceTest from 'samples/PerformanceTest';
+import PieChartCase from 'samples/PieChartCase';
 
 const cases = [
-	PerformanceTest,
-	// D3DataSample,
-	// SVGStyles,
-	// SVGBasic,
-	// CaseBarGraph,
+	// PerformanceTest,
+	PieChartCase,
+	D3DataSample,
+	SVGStyles,
+	SVGBasic,
+	CaseBarGraph,
 ];
 
 ready( window ).then( delegate );
